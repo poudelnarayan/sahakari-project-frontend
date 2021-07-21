@@ -1,0 +1,298 @@
+@media (min-width: 991.98px) {
+    .w-lg-75 {
+        width: 75%;
+    }
+
+    .border-left-lg {
+        border-left: 1px solid #dee2e6;
+    }
+
+    .border-right-lg {
+        border-right: 1px solid #dee2e6;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav .dropright .dropdown-menu {
+        border: none;
+    }
+
+    .navbar-nav .dropdown .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: auto;
+        vertical-align: 0;
+    }
+
+    .navbar-nav .dropdown>.dropdown-toggle {
+        display: -webkit-box;
+        display: flex;
+    }
+
+    .navbar .nav-justified .nav-item {
+        text-align: left;
+    }
+
+    .header-transparent {
+        position: relative;
+        background-color: #15549a;
+    }
+}
+@media (max-width:515px){
+    .sec-title h2{
+        font-size: 34px;
+    }
+    .welcome-note h1 {
+        font-size: 25px;
+    }
+    .welcome-note .nep-text{
+        font-size: 14px;
+    }
+    .full-preview .content h1{
+        font-size: 20px;
+    }
+    .sm-hidden{
+        display: none;
+    }
+    .quote{
+        font-size: 50px;
+    }
+    #button {
+        left: 315px;
+    }
+    footer h2{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (min-width: 766px) and (max-width: 1200px) {
+    .full-preview .content h1{
+        font-size: 22px !important;
+    }
+}
+
+
+@media only screen and (max-width: 767px){
+    html{
+        background: #fff;
+    }
+    .main-header .top-left{
+      display: none;
+  
+    }
+    .main-header .top-right{
+        width: 100%;
+        padding-left: 10px;
+      }
+    .full-preview img{
+      display: none;
+    }
+    .full-preview .col-md-6{
+      text-align: center;
+    }
+    .full-preview .content{
+      padding-top: 20px;
+    }
+    .full-preview{
+      margin-bottom: 50px;
+    }
+    .process-list .process:before {
+        display: none;
+    }
+    .process-list .process:after {
+        display: none;
+    }
+    .single-process {
+        margin-bottom: 30px;
+    }
+
+    section.loan-process-section.section-padding {
+        padding-bottom: 40px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .navbar-nav .dropright .dropdown-menu {
+        border: none;
+    }
+
+    .navbar-nav .dropdown .dropdown-toggle::after {
+        display: inline-block;
+        margin-left: auto;
+        vertical-align: 0;
+    }
+
+    .navbar-nav .dropdown>.dropdown-toggle {
+        display: -webkit-box;
+        display: flex;
+    }
+
+    .navbar .nav-justified .nav-item {
+        text-align: left;
+    }
+    .slidertext{
+        top: 25%;
+        left: 15%;
+    }
+
+    .slidertext h1{
+        font-size: 32px;
+        padding-bottom: 10px;
+    }
+    .slidertext p{
+        font-size: 15px;
+    }
+    #button{
+        left: 80vw;
+    }
+}
+@media (max-width:650px){
+    .slidertext{
+        top: 25%;
+        left: 12%;
+    }
+
+    .slidertext h1{
+        font-size: 20px ;
+        padding:0;
+    }
+    .slidertext p{
+        font-size: 10px ;
+        line-height: 1.5;
+    }
+
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 0.7rem;
+        padding-left: 0.7rem;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .navbar .dropdown-menu {
+        box-shadow: 0px 6px 17px rgba(0, 0, 0, 0.05);
+        border: 1px solid #e6ecef;
+    }
+
+    .dropdown-menu-lg {
+        min-width: 416px;
+    }
+
+    .navbar-nav .dropdown>.dropdown-menu {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+    }
+
+    .navbar-nav .dropdown>.dropdown-menu .dropright .dropdown-menu,
+    .navbar-nav .dropdown>.dropdown-menu .dropleft .dropdown-menu {
+        display: block;
+        visibility: hidden;
+        opacity: 0;
+        -webkit-transform: translateY(20px);
+        -ms-transform: translateY(20px);
+        transform: translateY(20px);
+        -webkit-transition: all 0.3s ease-in;
+        -o-transition: all 0.3s ease-in;
+        transition: all 0.3s ease-in;
+    }
+
+    .navbar-nav .dropdown.show>.dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar-nav .dropdown:hover .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navbar-nav .dropdown>.dropdown-menu .dropright:hover .dropdown-menu,
+    .navbar-nav .dropdown>.dropdown-menu .dropleft:hover .dropdown-menu {
+        visibility: visible;
+        opacity: 1;
+        -webkit-transform: scaleY(1);
+        -ms-transform: scaleY(1);
+        transform: scaleY(1);
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .dropdown-menu-lg {
+        min-width: auto;
+    }
+
+    .navbar .nav-justified .nav-item {
+        text-align: left;
+    }
+}
+/* @media (max-width:600px){
+    #button{
+        right: 30px;
+    }
+} */
+@media (max-width:575px){
+    .slider h1{
+        font-size: 20px;
+    }
+}
+@media (max-width:500px){
+    .top-text.address{
+        display: none;
+    }
+    .sm-hidden{
+        display: none;
+    }
+  
+}
+@media (max-width:400px){
+    p.container{
+        padding:30px 5px 0 5px;
+    }
+}
+
+
+@media (max-width:990px){
+    #button{
+        left: 80vw;
+    }
+
+}
+@media (max-width:930px){
+    #button{
+        left:83vw;     
+    }
+}
+@media (max-width:840px){
+    #button{
+        left: 85vw;
+    }
+
+}
+@media (max-width:540px){
+    .full-preview .content h1{
+        font-size: 31px;
+    }
+}
